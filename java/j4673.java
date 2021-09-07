@@ -2,7 +2,7 @@ public class j4673 {
 	
 	public static void main(String[] args) {
 		
-		boolean[] b = new boolean[10001]; // ÃÊ±â°ª false
+		boolean[] b = new boolean[10001]; // ì´ˆê¸°ê°’ false
 		
 		for(int i = 1 ;i <= 10000; i++) {
 			
@@ -23,13 +23,13 @@ public class j4673 {
 		System.out.println(prin);
 	}
 
-// °¢ ÀÚ¸® ¼ö ´õÇÏ±â
+// ê° ìžë¦¬ ìˆ˜ ë”í•˜ê¸°
 	public static int d (int n) {
 		
-		int dn = n; // º¯¼ö ÃÊ±âÈ­
+		int dn = n; // ë³€ìˆ˜ ì´ˆê¸°í™”
 		
 		while (n != 0){ 
-			dn = dn + n % 10; // ³ª¸ÓÁö(ÀÏÀÇ ÀÚ¸® ¼ö)
+			dn = dn + n % 10; // ë‚˜ë¨¸ì§€(ì¼ì˜ ìžë¦¬ ìˆ˜)
 			n = n / 10;
 		}
 	
