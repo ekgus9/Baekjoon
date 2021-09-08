@@ -5,7 +5,7 @@ public class j11720 {
 		
 		Scanner s =new Scanner(System.in);
 		int s1 = s.nextInt();
-		String s2 = s.next(); // int ¹üÀ§ -2,147,483,648 ~ 2,147,483,647
+		String s2 = s.next(); // int Â¹Ã¼Ã€Â§ -2,147,483,648 ~ 2,147,483,647
 		
 		String[] s_spl = s2.split("");
 		
