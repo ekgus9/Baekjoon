@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class j2675{
 	public static void main(String [] args){
 		
-		Scanner sc = new Scanner(System.in); // BufferedReader´Â \n·Î ÀÔ·Â°ª ±¸ºĞ
+		Scanner sc = new Scanner(System.in); // BufferedReaderÂ´Ã‚ \nÂ·Ã Ã€Ã”Â·Ã‚Â°Âª Â±Â¸ÂºÃ
 		int T = sc.nextInt();
 		StringBuilder sb = new StringBuilder();
 		
