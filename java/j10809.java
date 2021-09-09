@@ -1,5 +1,4 @@
 // indexOf
-// 검토 후 주석 달고 올리기
 
 import java.io.BufferedReader;
 import java.io.IOException;
