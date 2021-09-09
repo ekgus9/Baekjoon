@@ -1,5 +1,5 @@
 // indexOf
-// °ËÅä ÈÄ ÁÖ¼® ´Ş°í ¿Ã¸®±â
+// ê²€í†  í›„ ì£¼ì„ ë‹¬ê³  ì˜¬ë¦¬ê¸°
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,12 +13,12 @@ public class j10809 {
 		String s = br.readLine();
 		
 		int[] n = new int[26];
-		Arrays.fill(n, -1); // ¹è¿­ Ã¤¿ì±â
+		Arrays.fill(n, -1); // ë°°ì—´ ì±„ìš°ê¸°
 		
 		for (int i = 0 ; i < s.length();i++) { 
 			char ch = s.charAt(i);
 			
-			if (n[ch-'a'] == -1){ // ¾Æ½ºÅ°ÄÚµå a=97
+			if (n[ch-'a'] == -1){ // ì•„ìŠ¤í‚¤ì½”ë“œ a=97
 				n[ch-'a'] = i;
 			}
 			
