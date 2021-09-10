@@ -16,7 +16,7 @@ public class j1157{
 			A_ap[(A.charAt(i) - 'A')] += 1;	
 		}
 		
-		int n=0; // maxÀÎ ¾ËÆÄºªÀÇ °³¼ö
+		int n=0; // maxì¸ ì•ŒíŒŒë²³ì˜ ê°œìˆ˜
 		int n_max = Arrays.stream(A_ap).max().getAsInt();
 		
 		for (int i = 0; i < 26;i++ ) {
