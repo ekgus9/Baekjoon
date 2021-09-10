@@ -9,7 +9,7 @@ public class j1152 {
 		String a = bf.readLine();
 		String[] A = a.split("\\s");
 		
-		if (a.equals("") || a.equals(" ")){ // �Է°�
+		if (a.equals("") || a.equals(" ")){ // 입력값
 			System.out.println(0);
 		}else if (A[0].equals("") && A[A.length-1].equals("")) {
 			System.out.println(A.length-2);
