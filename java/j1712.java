@@ -10,7 +10,7 @@ public class j1712{
 		if (B >= C) {
 			System.out.println(-1);
 		}else{
-			System.out.println(A/(C-B) + 1);
+			System.out.println(A/(C-B) + 1); // 손익분기점
 		}
 		s.close();
 	}
