@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class j11729 {
- public static StringBuilder s = new StringBuilder(); // ½Ã°£ ´ÜÃà
+ public static StringBuilder s = new StringBuilder(); // ì‹œê°„ ë‹¨ì¶•
  public static void main(String[] args) throws NumberFormatException, IOException {
 	 BufferedReader sb = new BufferedReader(new InputStreamReader(System.in));
 	 int K = Integer.parseInt(sb.readLine());
